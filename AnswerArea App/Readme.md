@@ -5,5 +5,6 @@ This is a simple android app which uses android web view to load website which i
 Import into Android Studio and Run..
 
 ## Interface :
-![](https://raw.githubusercontent.com/ManoBalaR/Android-Programming-Projects/master/AnswerArea%20App/WhatsApp%20Image%202018-11-13%20at%203.26.42%20PM%20(8).jpeg | width=100)
-<img src="https://raw.githubusercontent.com/ManoBalaR/Android-Programming-Projects/master/AnswerArea%20App/WhatsApp%20Image%202018-11-13%20at%203.26.42%20PM%20(8).jpeg" alt="alt text" width="280" height="300">
+
+
+<img src="https://raw.githubusercontent.com/ManoBalaR/Android-Programming-Projects/master/AnswerArea%20App/WhatsApp%20Image%202018-11-13%20at%203.26.42%20PM%20(8).jpeg" alt="alt text" width="450" height="450">
