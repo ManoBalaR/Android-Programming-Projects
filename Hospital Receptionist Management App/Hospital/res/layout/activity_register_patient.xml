@@ -1,0 +1,186 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_patient"
+    android:background="#ffffff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_patient"
+    android:background="#ffffff" >
+
+      <TextView 
+        android:id="@+id/signuptxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Patient"
+        android:textColor="#6E72EA"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+      <LinearLayout
+          android:id="@+id/lisignup"
+          android:layout_width="match_parent"
+          android:layout_height="680dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="80dp"
+          android:background="@drawable/layout"
+          android:orientation="vertical" >
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="15dp"
+              android:text="Patient Id"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patid"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt"
+              android:inputType="text" />
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="10dp"
+              android:text="Name"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patname"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt" 
+              android:inputType="text"/>
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="12dp"
+              android:text="Age"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patage"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt"
+              android:inputType="text" />
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="12dp"
+              android:text="Phone Number"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patmobile"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt" 
+              android:inputType="text"/>
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="12dp"
+              android:text="Height"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patheight"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt"
+              android:inputType="text" />
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="12dp"
+              android:layout_marginTop="12dp"
+              android:text="Weight"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patweight"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt"
+              android:inputType="text" />
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="250dp"
+              android:layout_marginTop="12dp"
+              android:text="Blood Group"
+              android:textColor="#FFFF"
+              android:textSize="20sp" />
+
+          <EditText
+              android:id="@+id/patbloodgrp"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="12dp"
+              android:background="@drawable/txt"
+              android:inputType="text" />
+
+          <Button
+              android:id="@+id/patregiser"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="50dp"
+              android:layout_marginRight="50dp"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/button"
+              android:text="Register Patient"
+              android:textColor="#FFFF"
+              android:textSize="25sp" />
+      </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor_details" >
+    
+    <ImageView 
+        android:id="@+id/hos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/hospital"
+        android:contentDescription="Hostpital"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    
+   <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor details"
+        android:textColor="#6E72EA"
+        android:textSize="35sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#5568F5"
+        android:layout_marginTop="160dp"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.S. Dhivakaran MBBS"
+        android:layout_marginTop="165dp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiting Time  : 10:00Am - 2:00Pm"
+        android:layout_marginTop="195dp"
+        android:textSize="18sp"
+        android:textColor="#FFFF"
+        />
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#5568F5"
+        android:layout_marginTop="235dp"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.N. Aaditya MBBS"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiting Time  : 2:00Pm - 6:00Pm"
+        android:layout_marginTop="270dp"
+        android:textSize="18sp"
+        android:textColor="#FFFF"
+        />
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#5568F5"
+        android:layout_marginTop="310dp"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.C. Siva MBBS"
+        android:layout_marginTop="315dp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiting Time  : 06:00Pm - 10:00Pm"
+        android:layout_marginTop="350dp"
+        android:textSize="18sp"
+        android:textColor="#FFFF"
+        />
+    <Button 
+        android:id="@+id/backapperfrmdoc"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="410dp"
+        android:text="Back"
+        android:background="#0D28F3"/>
+
+</RelativeLayout>

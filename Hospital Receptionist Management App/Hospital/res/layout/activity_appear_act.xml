@@ -1,0 +1,108 @@
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appear_act" 
+    android:background="#ffffff">
+<LinearLayout 
+android:layout_width="match_parent"
+android:layout_height="70dp"
+android:orientation="horizontal"
+android:background="#023CFF">
+
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  Hospital"
+    android:textColor="#FFFF"
+    android:textSize="40sp"
+    android:layout_marginTop="10dp"
+    />
+
+<ImageView
+    android:id="@+id/queue"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/plus1"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="10dp" />
+
+<ImageView
+    android:id="@+id/regis"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/plususer1"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="10dp" />
+<ImageView 
+    android:id="@+id/doctordetails"
+    android:background="@drawable/doctor"
+    android:layout_height="40dp"
+    android:layout_width="40dp"
+    android:layout_marginTop="10dp"
+    />
+    
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="60dp"
+    android:background="#0A30B0"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/Patients"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:text="Patients" />
+    
+    <Button
+        android:id="@+id/Reports"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:text="Reports" />
+
+</LinearLayout>
+
+<LinearLayout 
+     android:id="@+id/listqueue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginTop="140dp"
+    android:visibility="gone">
+    
+    <ListView
+        android:id="@+id/lstqueue"
+        android:layout_width="458dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="20dp"
+        android:background="#0C81E9" >
+        
+    </ListView>
+    
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/listpatientdetails"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginTop="140dp"
+    
+    >
+    
+    <ListView 
+        android:id="@+id/patient"
+        android:layout_width="458dp"
+        android:layout_height="wrap_content"        
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="20dp"
+        android:background="#0C81E9">
+        
+    </ListView>
+
+</LinearLayout>    
+</RelativeLayout>

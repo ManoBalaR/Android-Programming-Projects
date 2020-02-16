@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#ffffff" >
+    
+     <ImageView 
+        android:id="@+id/hos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/hospital"
+        android:contentDescription="Hostpital"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    
+     <TextView 
+        android:id="@+id/logintxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#6E72EA"
+        android:textSize="35sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+     
+    
+    
+     
+     
+    <LinearLayout 
+        android:id="@+id/lilogin"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/layout"
+        >
+       
+    <TextView 
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:drawableRight="@drawable/ic_tab_name_selected"
+       />
+    
+    <EditText
+        android:id="@+id/lguser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/txt"
+        android:inputType="text" />
+    
+    <TextView 
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:drawableRight="@drawable/pass_selected"
+        />
+    
+    <EditText
+        android:id="@+id/lgpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/txt"
+        android:inputType="textPassword" />
+    
+    <Button 
+        android:id="@+id/lgsinin"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="35dp"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:textColor="#FFFF"
+        android:background="@drawable/button"
+        />
+   
+    </LinearLayout>
+    
+</RelativeLayout>
