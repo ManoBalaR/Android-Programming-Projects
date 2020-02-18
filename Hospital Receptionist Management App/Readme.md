@@ -1,4 +1,4 @@
-# Hospitat Patient Management System for Receptionist Local Android App
+# Hospital Patient Management System for Receptionist Local Android App
 
 Import into Eclipse and Run...
 
